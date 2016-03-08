@@ -1,0 +1,66 @@
+2016/03/08 20:40:17 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "index.php". in C:\Server\htdocs\yii\v1.1\framework\web\CController.php:483
+Stack trace:
+#0 C:\Server\htdocs\yii\v1.1\framework\web\CController.php(270): CController->missingAction('index.php')
+#1 C:\Server\htdocs\yii\v1.1\framework\web\CWebApplication.php(282): CController->run('index.php')
+#2 C:\Server\htdocs\yii\v1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index.php')
+#3 C:\Server\htdocs\yii\v1.1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\Server\htdocs\projects\PhpProject1\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/projects/PhpProject1/site/index.php
+HTTP_REFERER=http://localhost/projects/PhpProject1/site/login.php
+---
+2016/03/08 20:40:52 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "index.php". in C:\Server\htdocs\yii\v1.1\framework\web\CController.php:483
+Stack trace:
+#0 C:\Server\htdocs\yii\v1.1\framework\web\CController.php(270): CController->missingAction('index.php')
+#1 C:\Server\htdocs\yii\v1.1\framework\web\CWebApplication.php(282): CController->run('index.php')
+#2 C:\Server\htdocs\yii\v1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index.php')
+#3 C:\Server\htdocs\yii\v1.1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\Server\htdocs\projects\PhpProject1\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/projects/PhpProject1/site/index.php
+HTTP_REFERER=http://localhost/projects/PhpProject1/site/login.php
+---
+2016/03/08 20:40:55 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "login.php". in C:\Server\htdocs\yii\v1.1\framework\web\CController.php:483
+Stack trace:
+#0 C:\Server\htdocs\yii\v1.1\framework\web\CController.php(270): CController->missingAction('login.php')
+#1 C:\Server\htdocs\yii\v1.1\framework\web\CWebApplication.php(282): CController->run('login.php')
+#2 C:\Server\htdocs\yii\v1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login.php')
+#3 C:\Server\htdocs\yii\v1.1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\Server\htdocs\projects\PhpProject1\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/projects/PhpProject1/site/login.php
+HTTP_REFERER=http://localhost/projects/PhpProject1/site/index.php
+---
+2016/03/08 20:40:56 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "contact.php". in C:\Server\htdocs\yii\v1.1\framework\web\CController.php:483
+Stack trace:
+#0 C:\Server\htdocs\yii\v1.1\framework\web\CController.php(270): CController->missingAction('contact.php')
+#1 C:\Server\htdocs\yii\v1.1\framework\web\CWebApplication.php(282): CController->run('contact.php')
+#2 C:\Server\htdocs\yii\v1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/contact.ph...')
+#3 C:\Server\htdocs\yii\v1.1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\Server\htdocs\projects\PhpProject1\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/projects/PhpProject1/site/contact.php
+HTTP_REFERER=http://localhost/projects/PhpProject1/site/page.php?view=about
+---
+2016/03/08 20:40:57 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "page.php". in C:\Server\htdocs\yii\v1.1\framework\web\CController.php:483
+Stack trace:
+#0 C:\Server\htdocs\yii\v1.1\framework\web\CController.php(270): CController->missingAction('page.php')
+#1 C:\Server\htdocs\yii\v1.1\framework\web\CWebApplication.php(282): CController->run('page.php')
+#2 C:\Server\htdocs\yii\v1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/page.php')
+#3 C:\Server\htdocs\yii\v1.1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\Server\htdocs\projects\PhpProject1\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/projects/PhpProject1/site/page.php?view=about
+HTTP_REFERER=http://localhost/projects/PhpProject1/site/index
+---
+2016/03/08 20:41:21 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "index.php". in C:\Server\htdocs\yii\v1.1\framework\web\CController.php:483
+Stack trace:
+#0 C:\Server\htdocs\yii\v1.1\framework\web\CController.php(270): CController->missingAction('index.php')
+#1 C:\Server\htdocs\yii\v1.1\framework\web\CWebApplication.php(282): CController->run('index.php')
+#2 C:\Server\htdocs\yii\v1.1\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index.php')
+#3 C:\Server\htdocs\yii\v1.1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#4 C:\Server\htdocs\projects\PhpProject1\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/projects/PhpProject1/site/index.php
+HTTP_REFERER=http://localhost/projects/PhpProject1/site/login.php
+---
